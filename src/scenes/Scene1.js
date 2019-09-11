@@ -19,6 +19,7 @@ export default class Scene1 extends Phaser.Scene {
 
 
   create() {
+    ChangeScene.addSceneEventListeners(this);
     //load map
     const map = this.make.tilemap({ key: "map"});
 

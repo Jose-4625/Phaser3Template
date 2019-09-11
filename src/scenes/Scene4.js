@@ -12,7 +12,7 @@ export default class Scene4 extends Phaser.Scene {
 
   preload () {
     // Preload assets
-    this.load.image('logo', './assets/logo.png');
+    this.load.image("player", './assets/sprites/player_sprite.png');
 
     // Declare variables for center of the scene
     this.centerX = this.cameras.main.width / 2;
