@@ -10,6 +10,7 @@ import Scene6 from './scenes/Scene6.js';
 import Scene7 from './scenes/Scene7.js';
 import Scene8 from './scenes/Scene8.js';
 import Scene9 from './scenes/Scene9.js';
+import GameOverScene from './scenes/GameOverScene.js';
 
 import Config from './config/config.js';
 
@@ -28,8 +29,10 @@ class Game extends Phaser.Game {
     this.scene.add('Scene7', Scene7);
     this.scene.add('Scene8', Scene8);
     this.scene.add('Scene9', Scene9);
+    this.scene.add('GameOverScene', GameOverScene);
 
-    this.scene.start('Scene4');
+
+    this.scene.start('Scene8');
   }
 }
 
